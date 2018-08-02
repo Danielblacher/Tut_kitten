@@ -23,3 +23,129 @@
     font-style: normal;
 
 }
+
+section.intro {
+    height: 200px;
+    background-image: url(../images/banner_sml.jpg);
+    background-size: cover;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *: before, *after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 14px;
+    font-size: 1.4rem;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    font-family: "droid_sans", Helvetica, Arial, sans-serif;
+
+}
+header{
+    width: auto;
+    height: auto;
+    overflow: auto;
+    background-color: #fff;
+}
+
+nav a{
+    display: block;
+    width: auto;
+    height: auto;
+    padding:20px;
+
+    background: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+    border-bottom: 1px solid #666;
+
+}
+
+nav a:fisrt-child{
+    border-top: 1px solid #666;
+
+}
+
+
+}
+
+nav a:hover, nav a:active{
+    background: #ccc;
+    color: #333;
+}
+
+
+
+
+a.logo{
+    display: block;
+    width: 80px;
+    height: auto;
+    float: left;
+    margin: 10px 0 0 10px;
+
+}
+
+a.logo img{
+    width: 100%
+    height:auto;
+}
+
+.row:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.column{
+    width: 100%
+    color:#666;
+}
+
+nav{
+    width: auto;
+    height: 195px;
+
+    transition: all .5s ease-out;
+    overflow: hidden;
+}
+
+nav.default{
+    height: 0;
+}
+
+a.menuBtn{
+    display: block;
+    width: 60px;
+    height: 60px;
+    background: url(../images/menu.png);
+    background-position: 0 0;
+    float: right;
+    margin: 10px;
+}
+
+.menuBtn:hover{
+    background-position: 0px -65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
